@@ -10,19 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            Logging sesja = new Logging();
+            sesja.logowanie();
+
             Console.Read();
-        }
-    }
-
-    internal class User
-    {
-        Private String name = "jacek";
-        Private String surename = "placek";
-
-        public getUser()
-        {
-            Console.WriteLine(name + surename);
         }
     }
 
